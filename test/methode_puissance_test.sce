@@ -5,4 +5,4 @@ M = bool2s(rand(500, 500)<0.5);
 
 A = page_rank_matrice(M, 0.85);
 
-r = methode_puissance(A, i)
+r = methode_puissance(A, 100)
